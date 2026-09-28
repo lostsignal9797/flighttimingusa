@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flighttimingusa.com/sitemap.xml

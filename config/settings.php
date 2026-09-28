@@ -1,0 +1,22 @@
+<?php
+return [
+    'site_name' => 'FlightTimingUSA',
+    'site_domain' => 'https://flighttimingusa.com',
+    'site_description' => 'Estimated flight times, flight duration, air distance and travel information between U.S. cities.',
+    'flight_speed_mph' => 500,
+    'flight_overhead_minutes' => 35,
+    'car_speed_mph' => 62,
+    'bus_speed_mph' => 37,
+    'train_speed_mph' => 50,
+    'walking_speed_mph' => 3,
+    'bicycle_speed_mph' => 12,
+    'car_distance_factor' => 1.15,
+    'bus_distance_factor' => 1.15,
+    'train_distance_factor' => 1.10,
+    'walking_distance_factor' => 1.20,
+    'bicycle_distance_factor' => 1.15,
+    'car_mpg' => 28,
+    'gas_price_per_gallon' => 3.50,
+    'aircraft_fuel_gallons_per_hour' => 250,
+    'jet_fuel_price_per_gallon' => 5.00,
+];

@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Keep real files/directories accessible.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Dynamic flight route pages.
+RewriteRule ^flight-time/([^/]+)-to-([^/]+)/?$ index.php?route=1&from=$1&to=$2 [QSA,L]
+
+# City pages.
+RewriteRule ^city/([^/]+)/?$ index.php?city=$1 [QSA,L]
+
+# Sitemap.
+RewriteRule ^sitemap\.xml$ sitemap.php [QSA,L]
+
+# Home.
+RewriteRule ^$ index.php [L]

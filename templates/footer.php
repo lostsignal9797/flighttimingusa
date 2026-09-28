@@ -1,0 +1,1 @@
+</main><footer class="site-footer"><div class="container"><strong><?=e($settings['site_name'])?></strong><p>Estimated flight times and travel information. Calculations are informational estimates and are not airline schedules or booking data.</p><p>© <?=date('Y')?> <?=e($settings['site_name'])?></p></div></footer></body></html>
